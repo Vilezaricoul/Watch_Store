@@ -1,0 +1,334 @@
+* {
+  margin: 0;
+}
+
+.body {
+  max-width: 1920px;
+}
+
+.body__div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.header__div {
+  background-color: #000;
+  height: 44px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.top__main {
+  height: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #181818;
+}
+
+.main__div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: white;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 100%;
+          flex: 1 1 100%;
+}
+
+ul {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+}
+
+li {
+  padding: 0 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+li:hover {
+  background-color: #292929;
+}
+
+.logo__linck {
+  color: white;
+  padding-top: 20px;
+  text-align: center;
+  font-size: 36px;
+  height: 60px;
+}
+
+.img__div {
+  padding: 30px 20px 0 20px;
+}
+
+.left__header {
+  color: white;
+}
+
+.right__header {
+  color: white;
+}
+
+.first__div {
+  background: url(../img/Rectangle3.png);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-repeat: no-repeat;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.block__name {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 4px solid white;
+  margin: 160px 0 80px 0;
+  padding: 95px 70px;
+}
+
+.block__value {
+  color: white;
+  padding: 0 595px;
+  margin: 0 0 150px 0;
+  font-size: 20px;
+}
+
+p {
+  text-align: center;
+}
+
+@font-face {
+  font-family: "Post No Bills Jaffna";
+  src: url(../style/PostNoBillsJaffna-ExtraBold.ttf) format("ttf");
+}
+
+.block__season {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.season__left {
+  background-color: #000000;
+  height: 700px;
+}
+
+.season__right {
+  background: url(../img/Rectangl.png);
+}
+
+.title__name {
+  padding: 90px 330px 0 330px;
+  color: white;
+  font-size: 36px;
+}
+
+.main__clock {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.img__clock {
+  padding: 50px 20px;
+  background-color: #3a3a3a;
+}
+
+.name__clock {
+  padding-top: 10px;
+}
+
+.value__clock {
+  padding-top: 10px;
+}
+
+.block__mainclock {
+  color: white;
+}
+
+.line {
+  border-bottom: 1px solid white;
+  margin: 50px 400px;
+}
+
+.season__right {
+  width: 951px;
+}
+
+.block__but {
+  color: white;
+  margin-left: -15px;
+  margin-top: 10px;
+  padding-left: 460px;
+  padding-right: 410px;
+  font-size: 18px;
+}
+
+.left__name {
+  color: white;
+  padding: 480px 0 0 362px;
+  font-size: 36px;
+}
+
+.inline {
+  border-bottom: 1px solid white;
+  padding: 10px;
+  margin: 0 400px 0 440px;
+}
+
+.butt {
+  border: 1px solid white;
+  padding: 5px;
+}
+
+.collection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.one__bl {
+  width: 3500px;
+  background: url(../img/Rectangle9.png);
+}
+
+.second__bl {
+  background-color: #000000;
+  color: white;
+  height: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.tit__coll {
+  text-align: center;
+  font-size: 36px;
+}
+
+.collLIne {
+  border-bottom: 1px solid white;
+  padding-top: 20px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.text {
+  padding-top: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.buttDown {
+  border: 1px solid white;
+  padding: 10px;
+  text-align: center;
+  margin: 20px 300px;
+}
+
+.last__block {
+  background-image: url(../img/Rectangle15.png);
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 400px;
+}
+
+.one {
+  padding: 50px;
+  width: 350px;
+}
+
+.mane {
+  font-size: 24px;
+  padding-bottom: 40px;
+}
+
+.two {
+  width: 350px;
+}
+
+.bl {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.kategori {
+  margin: 10px;
+  padding: 15px;
+  background-color: #000;
+}
+
+.three {
+  width: 350px;
+}
+
+.inp {
+  padding-top: 50px;
+}
+
+input {
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
